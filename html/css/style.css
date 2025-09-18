@@ -1,0 +1,366 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    background: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.button_1 {
+    height: 38px;
+    background: #e8491d;
+    border: 0;
+    padding: 0 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.dark {
+    padding: 15px;
+    background: #35424a;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header {
+    background: #35424a;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a {
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #cccccc;
+    font-weight: bold;
+}
+
+
+#showcase {
+    min-height: 400px;
+    background: url('../images/showcase.jpg') no-repeat 0 -400px;
+    text-align: center;
+    color: #fff;
+}
+
+#showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+
+#newsletter {
+    padding: 15px;
+    color: #fff;
+    background: #35424a;
+}
+
+#newsletter h2 {
+    float: left;
+}
+
+#newsletter form {
+    float: right;
+    margin-top: 15px;
+}
+
+#newsletter input[type="email"] {
+    padding: 4px;
+    height: 38px;
+    width: 250px;
+}
+
+
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .box {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+#boxes .box img {
+    width: 90px;
+}
+
+
+aside#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea {
+    width: 90%;
+    padding: 5px;
+}
+
+
+article#main-col {
+    float: left;
+    width: 65%;
+}
+
+
+ul#services li {
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 1px;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+}
+
+
+.portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portfolio-item {
+    flex-basis: 48%;
+    margin-bottom: 20px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+#testimonials {
+    background: #35424a;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+    background: #e8491d;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+.client-name {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 10px;
+}
+
+
+#skills {
+    padding: 30px 0;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill-bar {
+    background: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 20px;
+}
+
+.skill-level {
+    height: 100%;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.html-css {
+    width: 90%;
+    background: #e8491d;
+    animation: html-css 2s;
+}
+
+.javascript {
+    width: 85%;
+    background: #f1c40f;
+    animation: javascript 2s;
+}
+
+.react {
+    width: 80%;
+    background: #3498db;
+    animation: react 2s;
+}
+
+.node {
+    width: 75%;
+    background: #2ecc71;
+    animation: node 2s;
+}
+
+@keyframes html-css {
+    0% { width: 0%; }
+    100% { width: 90%; }
+}
+
+@keyframes javascript {
+    0% { width: 0%; }
+    100% { width: 85%; }
+}
+
+@keyframes react {
+    0% { width: 0%; }
+    100% { width: 80%; }
+}
+
+@keyframes node {
+    0% { width: 0%; }
+    100% { width: 75%; }
+}
+
+
+form {
+    margin-top: 20px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form textarea {
+    height: 150px;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+}
+
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+    background: #e8491d;
+    text-align: center;
+    clear: both;
+}
+
+
+@media (max-width: 768px) {
+    header #branding,
+    header nav,
+    header nav li,
+    #newsletter h2,
+    #newsletter form,
+    #boxes .box,
+    article#main-col,
+    aside#sidebar,
+    .portfolio-item {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    header {
+        padding-bottom: 20px;
+    }
+
+    #showcase h1 {
+        margin-top: 40px;
+    }
+
+    #newsletter button, 
+    .quote button {
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    #newsletter form input[type="email"] {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}
