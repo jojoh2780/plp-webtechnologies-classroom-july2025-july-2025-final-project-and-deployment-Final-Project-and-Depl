@@ -1,4 +1,4 @@
-
+/* Global Styles */
 * {
     margin: 0;
     padding: 0;
@@ -40,6 +40,7 @@ ul {
     margin-bottom: 10px;
 }
 
+/* Header */
 header {
     background: #35424a;
     color: #fff;
@@ -84,7 +85,7 @@ header a:hover {
     font-weight: bold;
 }
 
-
+/* Showcase */
 #showcase {
     min-height: 400px;
     background: url('../images/showcase.jpg') no-repeat 0 -400px;
@@ -102,7 +103,7 @@ header a:hover {
     font-size: 20px;
 }
 
-
+/* Newsletter */
 #newsletter {
     padding: 15px;
     color: #fff;
@@ -124,7 +125,7 @@ header a:hover {
     width: 250px;
 }
 
-
+/* Boxes */
 #boxes {
     margin-top: 20px;
 }
@@ -140,7 +141,7 @@ header a:hover {
     width: 90px;
 }
 
-
+/* Sidebar */
 aside#sidebar {
     float: right;
     width: 30%;
@@ -152,13 +153,13 @@ aside#sidebar .quote input, aside#sidebar .quote textarea {
     padding: 5px;
 }
 
-
+/* Main-col */
 article#main-col {
     float: left;
     width: 65%;
 }
 
-
+/* Services */
 ul#services li {
     list-style: none;
     padding: 20px;
@@ -167,7 +168,7 @@ ul#services li {
     background: #e6e6e6;
 }
 
-
+/* Portfolio */
 .portfolio-items {
     display: flex;
     flex-wrap: wrap;
@@ -189,7 +190,7 @@ ul#services li {
     border-radius: 5px;
 }
 
-
+/* Testimonials */
 #testimonials {
     background: #35424a;
     color: #fff;
@@ -217,7 +218,7 @@ ul#services li {
     margin-top: 10px;
 }
 
-
+/* Skills */
 #skills {
     padding: 30px 0;
 }
@@ -286,7 +287,7 @@ ul#services li {
     100% { width: 75%; }
 }
 
-
+/* Contact Form */
 form {
     margin-top: 20px;
 }
@@ -318,7 +319,7 @@ form textarea {
     margin-top: 5px;
 }
 
-
+/* Footer */
 footer {
     padding: 20px;
     margin-top: 20px;
@@ -328,7 +329,7 @@ footer {
     clear: both;
 }
 
-
+/* Media Queries */
 @media (max-width: 768px) {
     header #branding,
     header nav,
